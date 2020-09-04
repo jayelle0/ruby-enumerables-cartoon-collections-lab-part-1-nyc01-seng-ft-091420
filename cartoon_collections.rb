@@ -19,5 +19,7 @@ def list_dwarves(array)
   array.map.with_index do |dwarf, i|
     "#{i + 1}. #{dwarf}"
   end.join("\n")
-
+  
+dwarves = %w[array]
+puts roll_call_dwarves(array)
 end
