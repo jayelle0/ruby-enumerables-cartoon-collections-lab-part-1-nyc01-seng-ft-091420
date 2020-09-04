@@ -21,5 +21,6 @@ def list_dwarves(array)
   end.join("\n")
   
 dwarves = %w[array]
-puts roll_call_dwarves(array)
+
+list_dwarves
 end
