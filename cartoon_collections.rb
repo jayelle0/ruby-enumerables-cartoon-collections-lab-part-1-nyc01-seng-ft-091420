@@ -17,5 +17,5 @@ def list_dwarves(array)
   
 array.each_index do |name,i|
   puts i+1. name
-   
+end
 end
